@@ -1,0 +1,15 @@
+# General
+*.pyc
+__pycache__/
+.DS_Store
+.env
+venv/
+.nox/
+.coverage
+dist/
+build/
+# Logs
+logs/*.log
+logs/*.jsonl
+# OS
+Thumbs.db

@@ -1,0 +1,19 @@
+# Local Hub config (example)
+hub_id: WI/HOLMEN/HUB1
+bbs:
+  software: synchronet
+  modem:
+    device: /dev/ttyUSB0
+    init: "AT&F1 E0 V1 S0=1 &C1 &D2 +MS=V34,0,9600,14400"
+    answer_on_ring: 1
+packet:
+  enabled: true
+  tnc: direwolf
+  freq_mhz: 145.050
+  callsign: KF9XYZ
+mesh:
+  enabled: false
+logging:
+  sample_hz: 1
+  path: logs/
+  include_hashes: true

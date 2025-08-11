@@ -1,0 +1,2 @@
+CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)
+Full text: https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2

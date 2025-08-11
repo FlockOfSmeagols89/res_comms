@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Nationwide Resilience Hubs — Pilot Pack
+message: If you use this project, please cite it.
+type: software
+authors:
+  - family-names: Freier
+    given-names: Jamie
+    orcid: ""
+version: v0.1
+date-released: 2025-08-11
+repository-code: https://github.com/yourname/resilience-hubs
+license: Apache-2.0
+keywords:
+  - emergency communications
+  - ham radio
+  - packet radio
+  - BBS
+  - resilience
+  - DTN

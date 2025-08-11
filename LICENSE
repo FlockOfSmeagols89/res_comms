@@ -1,0 +1,12 @@
+# Licensing (Multi-License Model)
+
+To keep the project open **and** protect attribution:
+
+- **Documentation & SOPs:** Creative Commons **CC BY-SA 4.0**  
+- **Software, configs & scripts:** **Apache License 2.0**  
+- **Hardware designs:** **CERN OHL-W v2.0**  
+
+Derivatives must **retain attribution** (“Jamie Freier and Contributors”) and remain open under the relevant license. See `LICENSES/` for full texts.
+
+### Attribution line to include
+“Based on *Nationwide Resilience Hubs — Pilot Pack* by Jamie Freier and Contributors, used under CC BY‑SA 4.0 / Apache‑2.0 / CERN‑OHL‑W v2.”

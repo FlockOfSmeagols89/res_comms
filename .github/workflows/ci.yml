@@ -1,0 +1,24 @@
+name: CI
+on:
+  push:
+  pull_request:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate YAML
+        run: |
+          python3 - << 'PY'
+import os, sys, yaml
+from glob import glob
+ok=True
+for f in glob('configs/**/*.yaml', recursive=True):
+    try:
+        yaml.safe_load(open(f))
+    except Exception as e:
+        print(f'YAML error in {f}: {e}')
+        ok=False
+print('OK' if ok else 'FAIL')
+sys.exit(0 if ok else 1)
+PY

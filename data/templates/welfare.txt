@@ -1,0 +1,4 @@
+To: @REGION/CITY/HUB
+From: @REGION/CITY/CALLSIGN
+Priority: B
+Text: "Family at [address] OK. Needs: [list]."

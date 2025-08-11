@@ -1,5 +1,7 @@
 # Nationwide Resilience Hubs
 
+Created by Jamie J Freier and Contributors
+
 *A citizen-built, open, auditable fallback for messaging when cellular/Internet fail — from neighborhood to nationwide.*
 
 This repository contains the open **Pilot Pack** for standing up **Resilience Hubs**:

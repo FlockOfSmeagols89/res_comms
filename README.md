@@ -30,3 +30,33 @@ This repository contains the open **Pilot Pack** for standing up **Resilience Hu
 4. Iterate and publish logs + learnings.
 
 See `docs/pilot-pack.md` and `drills/drill_001.md`.
+
+
+
+## Resilience Pod-1 (Microbunker)
+
+Backbone-grade, small-footprint comms pod (≈6′×8′ inside) for Tier-2 hubs or a small Tier-1 relay. Designed for RF shielding, clean power, and fast, redundant “kill” logic.
+
+**Docs**
+- ▶️ **Build & Layout:** [`docs/pod1-microbunker.md`](docs/pod1-microbunker.md)
+- ⚡ **Power “Kill” Diagram:** [`docs/pod1-power-kill-diagram.md`](docs/pod1-power-kill-diagram.md)
+
+**Highlights**
+- Inner **Faraday liner** (bonded seams) + **conductive RF door** with finger-stock gasket  
+- Short **L-shaped entrance** (breaks line-of-sight for blast/EM fields)  
+- **Fiber-only data** penetration; bonded RF bulkhead panel for antennas  
+- Cascaded surge + **isolation transformer + EMP/RFI filter** + **online UPS**  
+- **DC-first** power (LiFePO₄ + MPPT) for radios/compute; AC only when needed  
+- Dual **UV/OV relays** + **shunt-trip input breaker** + **output contactor** + **E-STOP**
+
+**Quick-start checklist**
+1. Site & shell ready (precast/CMU or framed)  
+2. Install continuous RF liner; verify door gasket continuity  
+3. Grounding: single-point bond to ground rods/ring  
+4. Power chain: Type-1/2/3 SPDs → isolation xfmr → EMP/RFI filter → online UPS → DC bus  
+5. Penetrations: fiber data; RF bulkhead with lightning arrestors; honeycomb RF vents  
+6. Commission tests: shield sanity, bonding <1 Ω, UV/OV trip tests, E-STOP, dark-power run
+
+> Docs licensed CC BY-SA 4.0; hardware notes under CERN OHL-W v2. Contributions welcome.
+
+

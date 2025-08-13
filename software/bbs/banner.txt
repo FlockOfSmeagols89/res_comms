@@ -1,0 +1,28 @@
+==============================================================
+   RESILIENCE HUB — PUBLIC MESSAGE BOARD (TEXT ONLY)
+==============================================================
+PRIORITIES & QUOTAS (default):
+  A — Life Safety .......... Unlimited
+  B — Welfare .............. 2 msgs/hour/user
+  C — Bulletin ............. 1 msg/2 hours/user
+  (Rolling 6-hour window; may tighten during outages)
+
+MESSAGE FORMAT (required headers):
+  To: @REGION/CITY/CALLSIGN  (or HUBID, e.g., @WI/HOLMEN/HUB1)
+  From: @REGION/CITY/CALLSIGN
+  Priority: A|B|C
+  Expires: YYYY-MM-DDTHH:MMZ
+  Via: HF|VHF|POTS|MESH
+  Sig: (optional PGP signature block)
+
+TEMPLATES:
+  - ICS-213 (condensed): data/templates/ICS-213.txt
+  - Welfare check:       data/templates/welfare.txt
+
+POLICY:
+  - Legal, noncommercial, emergency-appropriate content only.
+  - Amateur RF paths: NO encryption. Signing for authenticity is OK.
+  - Be concise. Respect quotas. Operators may defer low-priority traffic.
+
+Docs: docs/operator-quick-card.md  •  Provenance: docs/provenance.md
+==============================================================

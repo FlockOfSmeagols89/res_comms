@@ -8,7 +8,6 @@ https://github.com/FlockOfSmeagols89/res_comms/tree/main/docs
 
 [![Hardware: CERN OHL-W v2](https://img.shields.io/badge/Hardware-CERN%20OHL--W%20v2-orange.svg)](LICENSES/CERN-OHL-W-2.0.txt)
 
-[![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main)](.github/workflows/ci.yml)
 
 Created by Jamie J Freier and Contributors
 

@@ -1,5 +1,7 @@
 # Nationwide Resilience Hubs
 
+https://github.com/FlockOfSmeagols89/res_comms/tree/main/docs
+
 Created by Jamie J Freier and Contributors
 
 *A citizen-built, open, auditable fallback for messaging when cellular/Internet fail — from neighborhood to nationwide.*
